@@ -36,13 +36,13 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
-
 	{
-		path: '/DanhGia',
-		name: 'DanhGia',
-		component: './DanhGia/Form.tsx',
-		icon: 'ArrowsAltOutlined',
+		path: '/appointment',
+		name: 'Appointment',
+		component: './Appointment',
+		icon: 'CalendarOutlined',
 	},
+	
 
 	// DANH MUC HE THONG
 	// {

@@ -34,7 +34,7 @@ const ModuleView = () => {
 							<a href={value?.url} target='_blank' rel='noreferrer'>
 								<div className='module-item'>
 									{value?.icon ? (
-										<img src={`${AppModules[EModuleKey.QLDT].url}modules/${value.icon}`} alt={value?.title ?? name} />
+										<img src={`${AppModules[EModuleKey.QLDT].url}modules/${value.icon}`} />
 									) : (
 										<UserSwitchOutlined />
 									)}
@@ -49,7 +49,7 @@ const ModuleView = () => {
 						<a href={mod.url} target='_blank' rel='noreferrer'>
 							<div className='module-item'>
 								{mod.icon ? (
-									<img src={`${AppModules[EModuleKey.CORE].url}modules/${mod.icon}`} alt={mod.title ?? 'module icon'} />
+									<img src={`${AppModules[EModuleKey.CORE].url}modules/${mod.icon}`} />
 								) : (
 									<UserSwitchOutlined />
 								)}
